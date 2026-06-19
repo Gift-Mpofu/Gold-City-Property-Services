@@ -1,0 +1,1459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gold City Property Services | Electrician, Painting & Property Maintenance Johannesburg</title>
+  <meta name="description"
+    content="Need a reliable electrician, painter, or property maintenance team in Johannesburg? Gold City Property Services handles it all. Call or WhatsApp for a free quote today.">
+  <meta name="keywords"
+    content="electrician Johannesburg, property maintenance Johannesburg, painting contractors Johannesburg, electrical repairs Joburg, lighting installation Johannesburg">
+  <meta property="og:title" content="Gold City Property Services | Johannesburg's Property Experts">
+  <meta property="og:description"
+    content="Professional property maintenance, electrical repairs, and painting services in Johannesburg. One call fixes it all.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://goldcitypropertyservices.co.za">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Gold City Property Services",
+  "address": {"@type": "PostalAddress","addressLocality": "Johannesburg","addressCountry": "ZA"},
+  "telephone": "+27680144491",
+  "url": "https://goldcitypropertyservices.co.za"
+}
+</script>
+  <style>
+    :root {
+      --primary: #1B2A4A;
+      --secondary: #C9971F;
+      --secondary-light: #F5D584;
+      --secondary-gradient: linear-gradient(135deg, #C9971F, #F5D584);
+      --cta: #25D366;
+      --bg: #F8F8F6;
+      --text: #444444;
+      --white: #ffffff;
+      --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      color: var(--primary);
+      font-weight: 700;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: var(--transition);
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .section-padding {
+      padding: 90px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+
+    .section-title h2{font-size:2.2rem;margin-bottom:12px;color:var(--primary);position:relative;display:inline-block;}
+    .section-title h2::after{content:'';position:absolute;bottom:-10px;left:50%;transform:translateX(-50%);width:60px;height:4px;background:var(--secondary-gradient);border-radius:2px;}
+    .section-title p{color:#666;font-size:1.05rem;max-width:600px;margin:30px auto 0;}
+
+    /* BUTTONS */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 14px 28px;
+      border-radius: 8px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+      gap: 10px;
+      font-size: 1rem;
+      border: 2px solid transparent;
+    }
+
+    .btn-whatsapp {
+      background: var(--cta);
+      color: var(--white);
+    }
+
+    .btn-whatsapp:hover {
+      background: #1ebe5d;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.35);
+    }
+
+    .btn-outline {
+      border: 2px solid var(--secondary-light);
+      color: var(--white);
+      background: transparent;
+    }
+
+    .btn-outline:hover {
+      background: var(--white);
+      color: var(--primary);
+      transform: translateY(-2px);
+    }
+
+    .btn-gold {
+      background: var(--secondary-gradient);
+      color: var(--primary);
+    }
+
+    .btn-gold:hover {
+      background: linear-gradient(135deg, #b8860b, #e8c86a);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(201, 151, 31, 0.35);
+    }
+
+    /* REVEAL */
+    .reveal {
+      opacity: 0;
+      transform: translateY(28px);
+      transition: opacity 0.75s ease-out, transform 0.75s ease-out;
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* NAV */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      transition: var(--transition);
+      background: transparent;
+      padding: 22px 0;
+    }
+
+    nav.scrolled {
+      background: var(--white);
+      padding: 14px 0;
+      box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    nav.scrolled .nav-links a {
+      color: var(--primary);
+    }
+
+    nav.scrolled .menu-btn {
+      color: var(--primary);
+    }
+
+    .nav-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      padding-right: 16px;
+      flex-shrink: 0;
+    }
+
+    .logo img {
+      height: 100px;
+      width: auto;
+      display: block;
+    }
+
+    nav.scrolled .logo img {
+      height: 70px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 32px;
+      margin-left: auto;
+    }
+
+    .nav-links a {
+      color: var(--white);
+      font-weight: 600;
+      font-size: 0.95rem;
+      position: relative;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--secondary);
+      transition: var(--transition);
+    }
+
+    .nav-links a:hover::after,
+    .nav-links a.active::after {
+      width: 100%;
+    }
+
+    .menu-btn {
+      display: none;
+      cursor: pointer;
+      color: var(--white);
+      background: none;
+      border: none;
+      padding: 4px;
+    }
+
+    @media(max-width:768px) {
+      .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 72%;
+        background: var(--primary);
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 0.45s;
+        box-shadow: -5px 0 20px rgba(0, 0, 0, 0.15);
+        gap: 40px;
+        margin-left: 0;
+      }
+
+      .nav-links.active {
+        right: 0;
+      }
+
+      .menu-btn {
+        display: block;
+      }
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      background: linear-gradient(rgba(27, 42, 74, 0.82), rgba(27, 42, 74, 0.82)), url('images/banner.jpg');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      color: var(--white);
+      padding: 120px 0 80px;
+    }
+
+    .hero-content {
+      max-width: 750px;
+    }
+
+    .hero h1 {
+      font-size: 3.2rem;
+      line-height: 1.15;
+      margin-bottom: 22px;
+      color: var(--white);
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 36px;
+      opacity: 0.9;
+      line-height: 1.7;
+    }
+
+    .hero-btns {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+    }
+
+    .trust-line {
+      font-size: 0.88rem;
+      opacity: 0.78;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .trust-line svg {
+      flex-shrink: 0;
+    }
+
+    @media(max-width:768px) {
+      .hero h1 {
+        font-size: 2.1rem;
+      }
+
+      .hero-btns {
+        flex-direction: column;
+      }
+
+      .hero-btns .btn {
+        text-align: center;
+      }
+    }
+
+    /* TRUST BAR */
+    .trust-bar {
+      background: var(--primary);
+      padding: 44px 0;
+      border-bottom: 4px solid var(--secondary);
+    }
+
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      text-align: center;
+    }
+
+    .stat-box h3 {
+      font-size: 2.6rem;
+      background: var(--secondary-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 6px;
+    }
+
+    .stat-box p {
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: rgba(255, 255, 255, 0.85);
+    }
+
+    @media(max-width:768px) {
+      .trust-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 20px;
+      }
+    }
+
+    /* SERVICES */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+
+    .service-card {
+      background: var(--white);
+      padding: 28px 24px;
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+      border: 2px solid transparent;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .service-card:hover {
+      border-color: var(--secondary);
+      transform: translateY(-6px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+    }
+
+    .service-card svg {
+      width: 42px;
+      height: 42px;
+      margin-bottom: 22px;
+      color: var(--secondary);
+      stroke: var(--secondary);
+      transition: var(--transition);
+    }
+
+    .service-card h4 {
+      font-size: 1rem;
+      color: var(--primary);
+    }
+
+    .service-card p {
+      font-size: 0.88rem;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    @media(max-width:1024px) {
+      .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media(max-width:560px) {
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+
+
+    /* OUR WORK GRID */
+    .our-work-title {
+      text-align: center;
+      font-size: 1.4rem;
+      margin-bottom: 28px;
+      color: var(--primary);
+    }
+
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .photo-item {
+      aspect-ratio: 4/3;
+      border-radius: 10px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding: 14px;
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: var(--transition);
+    }
+
+    .photo-item:hover {
+      transform: scale(1.02);
+    }
+
+    .photo-item img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .photo-item::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(transparent 40%, rgba(0, 0, 0, 0.65));
+      border-radius: 10px;
+      z-index: 1;
+    }
+
+    .photo-item span {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+      color: var(--white);
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    @media(max-width:768px) {
+      .slider-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media(max-width:480px) {
+      .photo-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* WHY CHOOSE US */
+    .why-section {
+      background: var(--bg);
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px 60px;
+    }
+
+    .feature-block {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .feature-icon {
+      flex-shrink: 0;
+      width: 54px;
+      height: 54px;
+      background: var(--primary);
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .feature-icon svg {
+      width: 26px;
+      height: 26px;
+      stroke: var(--secondary);
+      fill: none;
+      stroke-width: 2;
+    }
+
+    .feature-block h4 {
+      font-size: 1.05rem;
+      margin-bottom: 6px;
+      color: var(--primary);
+    }
+
+    .feature-block p {
+      font-size: 0.9rem;
+      color: #666;
+      line-height: 1.6;
+    }
+
+    @media(max-width:768px) {
+      .features-grid {
+        grid-template-columns: 1fr;
+        gap: 28px;
+      }
+    }
+
+    /* REVIEWS SLIDER */
+    .reviews-section {
+      background: var(--white);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .reviews-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .reviews-track {
+      display: flex;
+      transition: transform 0.8s cubic-bezier(0.65, 0, 0.35, 1);
+      gap: 28px;
+    }
+
+    .review-card {
+      min-width: calc(33.333% - 19px);
+      background: var(--bg);
+      padding: 36px 28px;
+      border-radius: 12px;
+      border-left: 5px solid var(--secondary);
+      position: relative;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .quote-mark {
+      position: absolute;
+      top: 16px;
+      right: 20px;
+      font-size: 5rem;
+      line-height: 1;
+      color: var(--secondary);
+      opacity: 0.12;
+      font-family: Georgia, serif;
+      font-weight: 700;
+    }
+
+    .review-image {
+      width: 100%;
+      height: 180px;
+      border-radius: 8px;
+      overflow: hidden;
+      margin-bottom: 10px;
+    }
+
+    .review-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .stars {
+      display: flex;
+      gap: 3px;
+    }
+
+    .stars svg {
+      width: 18px;
+      height: 18px;
+      fill: var(--secondary);
+    }
+
+    .stars svg.empty {
+      fill: #ddd;
+    }
+
+    .review-card p {
+      font-size: 0.92rem;
+      color: #555;
+      line-height: 1.7;
+      margin-bottom: 10px;
+      font-style: italic;
+    }
+
+    .reviewer {
+      font-weight: 700;
+      color: var(--primary);
+      font-size: 0.9rem;
+      margin-top: auto;
+    }
+
+    .reviewer span {
+      font-weight: 400;
+      color: #888;
+      font-size: 0.82rem;
+    }
+
+    @media(max-width:900px) {
+      .review-card {
+        min-width: 100%;
+      }
+
+      .reviews-track {
+        gap: 0;
+      }
+    }
+
+    /* SERVICE AREAS */
+    .areas-section {
+      background: #fff8eb;
+    }
+
+    .areas-flex {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+    }
+
+    .area-pill {
+      background: var(--white);
+      border: 1.5px solid var(--secondary);
+      padding: 8px 20px;
+      border-radius: 50px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--primary);
+      transition: var(--transition);
+      cursor: default;
+    }
+
+    .area-pill:hover {
+      background: var(--secondary);
+      color: var(--primary);
+    }
+
+    /* CONTACT */
+    .contact-section {
+      background: var(--bg);
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1.6fr 1fr;
+      gap: 60px;
+      align-items: start;
+    }
+
+    .contact-form-wrap {
+      background: var(--white);
+      padding: 44px;
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+    }
+
+    .contact-form-wrap h3 {
+      margin-bottom: 28px;
+      font-size: 1.4rem;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 7px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: var(--primary);
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 12px 14px;
+      border: 1.5px solid #ddd;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 0.95rem;
+      transition: var(--transition);
+      background: var(--bg);
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      border-color: var(--secondary);
+      outline: none;
+      background: var(--white);
+    }
+
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .contact-info h3 {
+      font-size: 1.4rem;
+      margin-bottom: 8px;
+    }
+
+    .info-item {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+    }
+
+    .info-icon {
+      width: 50px;
+      height: 50px;
+      background: var(--primary);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .info-icon svg {
+      width: 22px;
+      height: 22px;
+      stroke: var(--secondary);
+      fill: none;
+      stroke-width: 2;
+    }
+
+    .info-item p {
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+
+    .info-item strong {
+      display: block;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #999;
+      margin-bottom: 2px;
+    }
+
+    @media(max-width:768px) {
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-form-wrap {
+        padding: 28px;
+      }
+    }
+
+    /* FOOTER */
+    footer {
+      background: var(--primary);
+      color: var(--white);
+      padding: 70px 0 24px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.8fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 50px;
+    }
+
+    .footer-logo {
+      display: inline-block;
+      margin-bottom: 18px;
+    }
+
+    .footer-logo img {
+      height: 56px;
+      width: auto;
+      display: block;
+      max-width: 260px;
+    }
+
+    .footer-brand p {
+      color: rgba(255, 255, 255, 0.65);
+      font-size: 0.9rem;
+      line-height: 1.7;
+    }
+
+    .footer-col h4 {
+      color: var(--secondary);
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 16px;
+    }
+
+    .footer-col ul li {
+      margin-bottom: 10px;
+    }
+
+    .footer-col ul li a {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 0.9rem;
+    }
+
+    .footer-col ul li a:hover {
+      color: var(--secondary);
+    }
+
+    .footer-col p {
+      color: rgba(255, 255, 255, 0.65);
+      font-size: 0.9rem;
+      line-height: 1.8;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 22px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: rgba(255, 255, 255, 0.45);
+    }
+
+    @media(max-width:768px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .footer-logo {
+        display: block;
+      }
+
+      .footer-logo img {
+        margin: 0 auto;
+      }
+    }
+
+    /* FLOATING WHATSAPP */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      width: 62px;
+      height: 62px;
+      background: var(--cta);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--white);
+      z-index: 999;
+      box-shadow: 0 4px 20px rgba(37, 211, 102, 0.45);
+      animation: pulse 2.5s infinite;
+    }
+
+    .whatsapp-float svg {
+      width: 32px;
+      height: 32px;
+    }
+
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+    }
+
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.45);
+      }
+
+      70% {
+        box-shadow: 0 0 0 16px rgba(37, 211, 102, 0);
+      }
+
+      100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="container nav-content">
+      <a href="#" class="logo">
+        <img src="images/logo.jpg" alt="Gold City Property Services">
+      </a>
+      <button class="menu-btn" id="menu-btn" aria-label="Toggle menu">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content reveal">
+        <h1>Joburg's Most Reliable Property &amp; Electrical Experts — One Call Fixes It All</h1>
+        <p>Electrical repairs, painting, lighting &amp; more. Licensed. Insured. Guaranteed.</p>
+        <div class="hero-btns">
+          <a href="https://wa.me/27620321747" class="btn btn-whatsapp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12.03 2c-5.52 0-10 4.48-10 10 0 1.77.47 3.43 1.28 4.88l-1.31 4.79 4.91-1.29c1.4.77 2.99 1.21 4.69 1.21h.01c5.52 0 10-4.48 10-10 0-5.52-4.48-10-10-10zm.01 18.01h-.01c-1.57 0-3.11-.42-4.46-1.22l-.32-.2-2.92.77.78-2.84-.21-.34c-1.07-1.7-1.63-3.69-1.63-5.71 0-5.1 4.14-9.24 9.25-9.24 5.11 0 9.25 4.14 9.25 9.24 0 5.1-4.14 9.25-9.25 9.25zm5.07-6.93c-.28-.14-1.64-.81-1.89-.9-.25-.09-.43-.14-.61.14-.18.28-.68.86-.83 1.03-.15.17-.31.2-.59.06-.28-.14-1.18-.43-2.25-1.38-.83-.74-1.39-1.65-1.55-1.94-.16-.28-.02-.43.12-.57.13-.13.28-.33.42-.49.14-.16.19-.28.29-.46.09-.18.05-.34-.01-.48-.06-.14-.61-1.46-.83-1.99-.22-.52-.45-.45-.61-.46l-.52-.01c-.18 0-.47.07-.72.34-.25.26-.95.93-.95 2.27s.98 2.63 1.11 2.82c.14.19 1.93 2.94 4.67 4.12.65.28 1.16.45 1.55.57.65.21 1.25.18 1.72.11.53-.08 1.64-.67 1.87-1.32.23-.65.23-1.2.16-1.32-.07-.12-.25-.19-.53-.33z" />
+            </svg>
+            WhatsApp Us Now
+          </a>
+          <a href="tel:+27620321747" class="btn btn-outline">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 015 6a2 2 0 012-2" />
+            </svg>
+            Call for a Free Quote
+          </a>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--secondary)">
+          <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+        </svg>
+        4.2 Star Average &nbsp;·&nbsp; Licensed &amp; Insured &nbsp;·&nbsp; Serving All Johannesburg Suburbs
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <div class="trust-bar">
+    <div class="container trust-grid">
+      <div class="stat-box">
+        <h3>130+</h3>
+        <p>Jobs Completed</p>
+      </div>
+      <div class="stat-box">
+        <h3>4.2 Star</h3>
+        <p>Average Rating</p>
+      </div>
+      <div class="stat-box">
+        <h3>4+</h3>
+        <p>Years Experience</p>
+      </div>
+      <div class="stat-box">
+        <h3>1 Call</h3>
+        <p>Away</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section id="services" class="section-padding">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>Everything Your Property Needs — Under One Roof</h2>
+        <p>From urgent electrical faults to full renovations — one team, every trade, one invoice.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          <h4>Electrical Repairs &amp; Installations</h4>
+          <p>Wiring, DB boards, fault finding, and full compliance certificates for residential and commercial properties.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/><path d="M11 3a9 9 0 0 1 8 5m-8-5a9 9 0 0 0-8 5"/></svg>
+          <h4>Painting (Interior &amp; Exterior)</h4>
+          <p>Premium quality finishes for homes, offices, and complexes. Neat, professional, and on schedule.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.07" x2="5.64" y2="17.66"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <h4>Lighting Supply &amp; Installation</h4>
+          <p>Indoor, outdoor, garden, and energy-efficient LED lighting design and installation.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          <h4>Curtain Rails Installation</h4>
+          <p>Supply and fit curtain rails, tracks, and brackets for homes and offices — neat, secure, and built to last.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          <h4>Damage Reports</h4>
+          <p>Professional, insurance-ready damage assessments with full photographic documentation.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <h4>Electrocution Assessments &amp; Repairs</h4>
+          <p>Safety inspections, hazard identification, and emergency electrical fault repair.</p>
+        </div>
+        <div class="service-card reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          <h4>General Property Maintenance</h4>
+          <p>Your one-stop team for plumbing, carpentry, tiling, and all ongoing property upkeep.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR WORK PHOTO GRID -->
+  <section id="gallery" class="section-padding">
+    <div class="container">
+      <h3 class="our-work-title">Our Work Across Johannesburg</h3>
+      <div class="photo-grid reveal">
+        <div class="photo-item">
+          <img src="images/Light installment sandton.jpg" alt="Premium Lighting — Sandton">
+          <span>Premium Lighting — Sandton</span>
+        </div>
+        <div class="photo-item">
+          <img src="images/Light installation 1.2 After.jpeg" alt="Crystal Chandelier Installation">
+          <span>Crystal Chandelier Installation</span>
+        </div>
+        <div class="photo-item">
+          <img src="images/Light supply (2).jpeg" alt="Luxury Lighting Showroom">
+          <span>Luxury Lighting Showroom</span>
+        </div>
+        <div class="photo-item">
+          <img src="images/Light Samples.jpeg" alt="Premium Lighting Samples">
+          <span>Premium Lighting Samples</span>
+        </div>
+        <div class="photo-item">
+          <img src="images/WhatsApp Image 2026-06-17 at 23.19.06 (1).jpeg" alt="Modern Pendant Lighting">
+          <span>Modern Pendant Lighting</span>
+        </div>
+        <div class="photo-item">
+          <img src="images/WhatsApp Image 2026-06-17 at 23.19.08 (1).jpeg" alt="Designer Wallpaper Rolls">
+          <span>Designer Wallpaper Rolls</span>
+        </div>
+        <div class="photo-item">
+          <img src="images/WhatsApp Image 2026-06-17 at 23.19.08 (2).jpeg" alt="Gold & White Patterned Wallpaper">
+          <span>Gold & White Patterned Wallpaper</span>
+        </div>
+        <div class="photo-item">
+          <img src="images/WhatsApp Image 2026-06-17 at 23.19.09.jpeg" alt="Textured Wallpaper Supply">
+          <span>Textured Wallpaper Supply</span>
+        </div>
+        <div class="photo-item">
+          <img src="images/WhatsApp Image 2026-06-17 at 23.19.10 (1).jpeg" alt="Luxury Wallpaper Finishes">
+          <span>Luxury Wallpaper Finishes</span>
+        </div>
+        <div class="photo-item">
+          <img src="images/WhatsApp Image 2026-06-17 at 23.19.11 (1).jpeg" alt="Crystal Ring Pendant Installation">
+          <span>Crystal Ring Pendant Installation</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section id="why" class="section-padding why-section">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>Why Johannesburg Trusts Gold City</h2>
+        <p>We don't just talk about quality — we prove it on every single job.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-block reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                stroke="currentColor" />
+            </svg>
+          </div>
+          <div>
+            <h4>Licensed &amp; Insured</h4>
+            <p>All our technicians are fully certified. Our work is covered and compliant — no shortcuts, no risk to
+              you.</p>
+          </div>
+        </div>
+        <div class="feature-block reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"
+                stroke="currentColor" />
+              <path d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" stroke="currentColor" />
+            </svg>
+          </div>
+          <div>
+            <h4>Photo Accountability</h4>
+            <p>We photograph every job before we start and after we finish. You always see exactly what was done.</p>
+          </div>
+        </div>
+        <div class="feature-block reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke="currentColor" />
+              <circle cx="9" cy="7" r="4" stroke="currentColor" />
+              <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="currentColor" />
+            </svg>
+          </div>
+          <div>
+            <h4>One Point of Contact</h4>
+            <p>No juggling multiple contractors. One team handles every trade — one call, one invoice, zero stress.</p>
+          </div>
+        </div>
+        <div class="feature-block reveal">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" stroke="currentColor" />
+              <path d="M12 6v6l4 2" stroke="currentColor" />
+            </svg>
+          </div>
+          <div>
+            <h4>Fast WhatsApp Response</h4>
+            <p>Message us and we respond within 2 hours during business hours. Urgent jobs handled same day.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews" class="section-padding reviews-section">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>What Johannesburg Says About Us</h2>
+        <p>Don't take our word for it — here's what our clients say.</p>
+      </div>
+      <div class="reviews-container">
+        <div class="reviews-track" id="reviews-track">
+          <div class="review-card">
+          <div class="review-image"><img src="images/Electrical fault.jpg" alt="Electrical Board Repair"></div>
+            <div class="stars">
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p>"The team responded incredibly fast to our electrical fault. They diagnosed and fixed the board the same afternoon. Brilliant service!"</p>
+            <div class="reviewer">Thandi M. <span>— Sandton</span></div>
+          </div>
+          <div class="review-card">
+          <div class="review-image"><img src="images/Painting a wall.jpg" alt="Interior Painting Service"></div>
+            <div class="stars">
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p>"Professional painting job! They were neat, on time, and the finish is perfect. Definitely our go-to team for property work now."</p>
+            <div class="reviewer">Peter V. <span>— Randburg</span></div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-image"><img src="images/Curtain railing supply.jpg" alt="Curtain rail supply"></div>
+            <div class="stars">
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg class="empty" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p>"Handled our window rails perfectly. Everything is secure and level. Great communication throughout the process."</p>
+            <div class="reviewer">Kevin L. <span>— Midrand</span></div>
+          </div>
+          <div class="review-card">
+            <div class="review-image"><img src="images/wallpaper installation.jpg" alt="Professional Wallpapering"></div>
+            <div class="stars">
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg class="empty" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg class="empty" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <p>"The wallpapering was a tough job due to the wall texture, but they got it done. Took a bit longer than expected but quality is good."</p>
+            <div class="reviewer">Mark S. <span>— Roodepoort</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE AREAS -->
+  <section id="areas" class="section-padding areas-section">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>We Cover All of Johannesburg</h2>
+        <p>From Sandton to Soweto — no suburb is too far.</p>
+      </div>
+      <div class="areas-flex reveal">
+        <span class="area-pill">Sandton</span>
+        <span class="area-pill">Randburg</span>
+        <span class="area-pill">Fourways</span>
+        <span class="area-pill">Midrand</span>
+        <span class="area-pill">Roodepoort</span>
+        <span class="area-pill">Soweto</span>
+        <span class="area-pill">Johannesburg CBD</span>
+        <span class="area-pill">Parkhurst</span>
+        <span class="area-pill">Rosebank</span>
+        <span class="area-pill">Bedfordview</span>
+        <span class="area-pill">Boksburg</span>
+        <span class="area-pill">Germiston</span>
+        <span class="area-pill">Edenvale</span>
+        <span class="area-pill">Kempton Park</span>
+        <span class="area-pill">Centurion</span>
+        <span class="area-pill">Pretoria</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section-padding contact-section">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>Get Your Free Quote Today</h2>
+        <p>Fill in the form and we'll get back to you within 2 hours.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-form-wrap reveal">
+          <h3>Send Us a Message</h3>
+          <!-- REPLACE: swap YOURFORMID with your actual Formspree form ID -->
+          <form action="https://formspree.io/f/YOURFORMID" method="POST">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+27 62 032 1747" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com">
+            </div>
+            <div class="form-group">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service">
+                <option value="">Select a service...</option>
+                <option>Electrical Repairs &amp; Installations</option>
+                <option>Painting (Interior &amp; Exterior)</option>
+
+                <option>Lighting Supply &amp; Installation</option>
+                <option>Curtain Rails Installation</option>
+                <option>Damage Reports</option>
+                <option>Electrocution Assessments &amp; Repairs</option>
+                <option>General Property Maintenance</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us about your project..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-gold" style="width:100%;font-size:1rem;">Send My Request</button>
+          </form>
+        </div>
+        <div class="contact-info reveal">
+          <h3>Contact Us Directly</h3>
+          <!-- REPLACE: update all contact details below -->
+          <div class="info-item">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 015 6a2 2 0 012-2"
+                  stroke="currentColor" />
+              </svg>
+            </div>
+            <div>
+              <strong>Phone</strong>
+              <p><a href="tel:+27620321747">+27 62 032 1747</a></p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  stroke="currentColor" />
+                <polyline points="22,6 12,13 2,6" stroke="currentColor" />
+              </svg>
+            </div>
+            <div>
+              <strong>Email</strong>
+              <p><a href="mailto:info@goldcitypropertyservices.co.za">info@goldcitypropertyservices.co.za</a></p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12.03 2c-5.52 0-10 4.48-10 10 0 1.77.47 3.43 1.28 4.88l-1.31 4.79 4.91-1.29c1.4.77 2.99 1.21 4.69 1.21h.01c5.52 0 10-4.48 10-10 0-5.52-4.48-10-10-10zm5.07 14.08c-.28-.14-1.64-.81-1.89-.9-.25-.09-.43-.14-.61.14-.18.28-.68.86-.83 1.03-.15.17-.31.2-.59.06-.28-.14-1.18-.43-2.25-1.38-.83-.74-1.39-1.65-1.55-1.94-.16-.28-.02-.43.12-.57.13-.13.28-.33.42-.49.14-.16.19-.28.29-.46.09-.18.05-.34-.01-.48-.06-.14-.61-1.46-.83-1.99-.22-.52-.45-.45-.61-.46l-.52-.01c-.18 0-.47.07-.72.34-.25.26-.95.93-.95 2.27s.98 2.63 1.11 2.82c.14.19 1.93 2.94 4.67 4.12.65.28 1.16.45 1.55.57.65.21 1.25.18 1.72.11.53-.08 1.64-.67 1.87-1.32.23-.65.23-1.2.16-1.32-.07-.12-.25-.19-.53-.33z" />
+              </svg>
+            </div>
+            <div>
+              <strong>WhatsApp</strong>
+              <p><a href="https://wa.me/27620321747">Click to Chat Now</a></p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" />
+                <circle cx="12" cy="10" r="3" stroke="currentColor" />
+              </svg>
+            </div>
+            <div>
+              <strong>Location</strong>
+              <p>Johannesburg, South Africa</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="footer-logo">
+            <img src="images/logo.jpg" alt="Gold City Property Services">
+          </a>
+          <p>One Call. Every Trade. Guaranteed.<br><br>Johannesburg's trusted all-in-one property maintenance team.
+            Electrical, painting, construction, and more.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <!-- REPLACE: update phone and email -->
+          <p>+27 62 032 1747<br>info@goldcitypropertyservices.co.za<br><br>Licensed &amp; Insured<br>Johannesburg, South
+            Africa</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2025 Gold City Property Services. All rights reserved. | goldcitypropertyservices.co.za
+      </div>
+      <div
+        style="text-align:center; padding: 10px 0 20px; font-size:0.75rem; color:rgba(255,255,255,0.35); border-top: 1px solid rgba(255,255,255,0.06);">
+        Website designed &amp; built by
+        <a href="https://payhip.com/ACreativeGroup" target="_blank"
+          style="color:rgba(255,255,255,0.5); text-decoration:underline;">A-Creative Group</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <!-- REPLACE: swap 27620321747 with real WhatsApp number -->
+  <a href="https://wa.me/27620321747" class="whatsapp-float" title="Chat with us on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M12.03 2c-5.52 0-10 4.48-10 10 0 1.77.47 3.43 1.28 4.88l-1.31 4.79 4.91-1.29c1.4.77 2.99 1.21 4.69 1.21h.01c5.52 0 10-4.48 10-10 0-5.52-4.48-10-10-10zm5.07 14.08c-.28-.14-1.64-.81-1.89-.9-.25-.09-.43-.14-.61.14-.18.28-.68.86-.83 1.03-.15.17-.31.2-.59.06-.28-.14-1.18-.43-2.25-1.38-.83-.74-1.39-1.65-1.55-1.94-.16-.28-.02-.43.12-.57.13-.13.28-.33.42-.49.14-.16.19-.28.29-.46.09-.18.05-.34-.01-.48-.06-.14-.61-1.46-.83-1.99-.22-.52-.45-.45-.61-.46l-.52-.01c-.18 0-.47.07-.72.34-.25.26-.95.93-.95 2.27s.98 2.63 1.11 2.82c.14.19 1.93 2.94 4.67 4.12.65.28 1.16.45 1.55.57.65.21 1.25.18 1.72.11.53-.08 1.64-.67 1.87-1.32.23-.65.23-1.2.16-1.32-.07-.12-.25-.19-.53-.33z" />
+    </svg>
+  </a>
+
+  <script>
+    // NAV
+    const menuBtn = document.getElementById('menu-btn');
+    const navLinks = document.getElementById('nav-links');
+    menuBtn.addEventListener('click', () => navLinks.classList.toggle('active'));
+    navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('active')));
+
+    // SCROLL: nav + active links
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 60);
+      let current = '';
+      document.querySelectorAll('section[id]').forEach(s => {
+        if (window.scrollY >= s.offsetTop - 220) current = s.id;
+      });
+      document.querySelectorAll('.nav-links a').forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+      });
+    });
+
+    // REVEAL ON SCROLL
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('active'); });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+
+
+    // REVIEWS SLIDER LOGIC
+    const track = document.getElementById('reviews-track');
+    const cards = document.querySelectorAll('.review-card');
+    let index = 0;
+
+    function slide() {
+      index++;
+      if (window.innerWidth > 900) {
+        if (index > cards.length - 3) index = 0;
+        const width = cards[0].offsetWidth + 28;
+        track.style.transform = `translateX(-${index * width}px)`;
+      } else {
+        if (index > cards.length - 1) index = 0;
+        track.style.transform = `translateX(-${index * 100}%)`;
+      }
+    }
+
+    setInterval(slide, 5000);
+  </script>
+</body>
+
+</html>

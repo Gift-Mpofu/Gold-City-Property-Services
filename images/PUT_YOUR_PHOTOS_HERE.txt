@@ -1,0 +1,36 @@
+GOLD CITY PROPERTY SERVICES - IMAGE CHECKLIST
+================================================
+Drop your photos into this "images" folder using these EXACT filenames.
+The website is already coded to look for these names - just rename and drop in.
+
+1.  logo.png                  -> Your logo (PNG with transparent background works best)
+
+2.  hero.jpg                  -> Big banner photo for the top of the page
+                                  (wide landscape shot, completed project or team at work)
+
+3.  electrical-before.jpg     -> Electrical job - BEFORE photo
+4.  electrical-after.jpg      -> Electrical job - AFTER photo  (same spot/angle as #3 ideally)
+
+5.  painting-before.jpg       -> Painting job - BEFORE photo
+6.  painting-after.jpg        -> Painting job - AFTER photo    (same spot/angle as #5 ideally)
+
+7.  construction-before.jpg   -> Construction job - BEFORE photo
+8.  construction-after.jpg    -> Construction job - AFTER photo (same spot/angle as #7 ideally)
+
+9.  work-1.jpg                -> Any completed job photo (e.g. electrical panel)
+10. work-2.jpg                -> Any completed job photo (e.g. painted room)
+11. work-3.jpg                -> Any completed job photo (e.g. outdoor lighting)
+12. work-4.jpg                -> Any completed job photo (e.g. wallpaper wall)
+13. work-5.jpg                -> Any completed job photo (e.g. wall repair)
+14. work-6.jpg                -> Any completed job photo (e.g. LED lighting)
+
+TIPS:
+- JPG is fine for photos, PNG is better for the logo (keeps transparency)
+- Keep photo file sizes reasonable (under 500KB each) so the site loads fast -
+  you can compress them for free at https://squoosh.app before uploading
+- For the before/after sliders, try to use photos taken from the same angle/spot
+  so the comparison actually lines up visually
+- This text file is just instructions - delete it once your photos are all in place
+
+Once all 14 files are in this folder, upload the whole website folder
+(index.html + this images folder) to your hosting.
